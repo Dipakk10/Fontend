@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+nav {
+    margin: 0px 180px 0px 40px;
+    padding: 20px 60px 20px 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.5s ease;
+    font-style: bold;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.top {
+    height: 120px;
+    border: 0px solid black;
+    background-color: rgb(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.p1 {
+    margin: 35px;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.service {
+    position: relative;
+    height: 900px;
+    font-size: 20px;
+}
+.h1a{
+    position: relative;
+    text-align: center;
+    margin: 35px 0px 0px 15px;
+    color: rgb(0,132,240);
+}
+
+.service1 {
+    position: absolute;
+    height: 500px;
+    left: 600px;
+    top: 110px;
+    font: 28px;
+    width: 1000px;
+    font-size: 20px;
+    backdrop-filter: blur(18.3px);
+    -webkit-backdrop-filter: blur(28.3px);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 50px;
+}
